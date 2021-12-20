@@ -27,7 +27,7 @@ export default function List() {
 
     return (
         <div className=''>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-3 m-5'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                 <DataBox value={knownCount[0]?.knownCount} text={knownCount[0]?.id} background="bg-[url('../img/planet-banner.jpg')]" />
                 <DataBox value={knownCount[1]?.knownCount} text={knownCount[1]?.id} background="bg-[url('../img/dwarf-planet.jpg')]" />
                 <DataBox value={knownCount[4]?.knownCount} text={knownCount[4]?.id} background="bg-[url('../img/moon.jpg')]" />

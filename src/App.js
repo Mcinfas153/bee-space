@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-1 m-5">
           <Switch>
             <Route path="/list">
               <List />
@@ -21,8 +21,8 @@ function App() {
               <Home />
             </Route>
           </Switch>
-          <BottomNavigation />
         </div>
+        <BottomNavigation />
       </div>
     </Router>
   );
