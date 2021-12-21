@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import NewsBox from './NewsBox'
 import axios from 'axios'
 import NewsBoxSk from './skelton/NewsBoxSk'
+import { rapidKey } from '../config/apiKey'
 
 export default function News() {
 
@@ -10,7 +11,7 @@ export default function News() {
     const options = {
         headers: {
             'x-rapidapi-host': 'space-news.p.rapidapi.com',
-            'x-rapidapi-key': 'cdc0a5aa88msh30f72e5bb0003eep14fcdcjsndd04b380e55f'
+            'x-rapidapi-key': rapidKey
         }
     };
 

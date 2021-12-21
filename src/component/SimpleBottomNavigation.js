@@ -31,7 +31,7 @@ export default function SimpleBottomNavigation() {
                         <p className='text-white text-xs mt-2 tracking-widest font-semibold uppercase'>News</p>
                     </div>
                 </Link>
-                <Link to="/">
+                <Link to="/test">
                     <div className='flex flex-col place-items-center px-5 py-3 active:bg-green-900' onClick={() => selectTab()}>
                         <AiFillSignal size={24} color='white' className='hover:cursor-pointer' />
                         <p className='text-white text-xs mt-2 tracking-widest font-semibold uppercase'>Space</p>

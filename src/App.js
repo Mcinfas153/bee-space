@@ -3,6 +3,7 @@ import BottomNavigation from './component/SimpleBottomNavigation';
 import Home from './component/Home';
 import List from './component/List';
 import News from './component/News';
+import Test from './component/Test';
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path="/news">
               <News />
+            </Route>
+            <Route path="/test">
+              <Test />
             </Route>
             <Route exact path="/">
               <Home />
