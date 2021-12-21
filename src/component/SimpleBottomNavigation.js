@@ -11,7 +11,7 @@ export default function SimpleBottomNavigation() {
     }
 
     return (
-        <div className='fixed bottom-0 w-full'>
+        <div className='fixed inset-x-0 bottom-0 w-full'>
             <div className='bg-gradient-to-r from-cyan-500 to-blue-500 flex justify-around'>
                 <Link to="/">
                     <div className='flex flex-col place-items-center px-5 py-3 active:bg-green-900' onClick={() => selectTab(this)}>
@@ -25,7 +25,7 @@ export default function SimpleBottomNavigation() {
                         <p className='text-white text-xs mt-2 tracking-widest font-semibold uppercase'>Objects</p>
                     </div>
                 </Link>
-                <Link to="/">
+                <Link to="/news">
                     <div className='flex flex-col place-items-center px-5 py-3 active:bg-green-900' onClick={() => selectTab()}>
                         <AiFillBulb size={24} color='white' className='hover:cursor-pointer' />
                         <p className='text-white text-xs mt-2 tracking-widest font-semibold uppercase'>News</p>
